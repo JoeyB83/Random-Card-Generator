@@ -1,0 +1,131 @@
+body {
+    background-color: green;
+}
+
+.container {
+    background-color: white;
+    margin-top: 5px;
+    width: 350px;
+    height: 500px;
+    position: relative;
+}
+
+.container 
+.hearth::after 
+ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 100px;
+    margin-left: 10px;
+    height: 10%;
+    margin-top: -20px;
+    content: "♥";
+    color: red;    
+}
+
+.container
+.hearth::before
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+    font-size: 100px;
+    margin-right: 10px;
+    margin-bottom: -20px;
+    content: "♥";
+    color: red;
+}
+
+.container 
+.diamond::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 100px;
+    margin-left: 10px;
+    height: 10%;
+    margin-top: -20px;
+    content: "♦";
+    color: red;    
+}
+
+.container
+.diamond::before
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+    font-size: 100px;
+    margin-right: 10px;
+    margin-bottom: -20px;
+    content: "♦";
+    color: red;
+}
+
+.container 
+.spade::after 
+ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 100px;
+    margin-left: 10px;
+    height: 10%;
+    margin-top: -20px;
+    content: "♠";        
+}
+
+.container
+.spade::before
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+    font-size: 100px;
+    margin-right: 10px;
+    margin-bottom: -20px;
+    content: "♠";    
+}
+
+.container 
+.club::after 
+ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 100px;
+    margin-left: 10px;
+    height: 10%;
+    margin-top: -20px;
+    content: "♣";        
+}
+
+.container
+.club::before
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+    font-size: 100px;
+    margin-right: 10px;
+    margin-bottom: -20px;
+    content: "♣";    
+}
+
+.container .number{
+  position: absolute;
+  top: 25%;
+  width: 95%;
+  text-align: center;
+  font-size: 150px;  
+}
+
+
+
+
+
